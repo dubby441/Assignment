@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../styles.css">
+
+</head>
+<body>
+    
+    <h1>Sign up</h1>
+
+    <!--internal navigation-->
+    <a href="./index.html">Home</a>
+    <a href="./form.html">Form</a>
+    <h4>Take the next step to apply at Altschool Africa</h4>
+    
+    <form action="/submit-form" method="post">
+        <table>
+            <tr>
+                <td>
+                    <!-- First Name -->
+                    <label>First Name:</label><br>
+                    <input type="text" placeholder="Enter first name"><br><br>
+                </td>
+                <td>
+                    <!-- Last Name -->
+                    <label>Last Name:</label><br>
+                    <input type="text" placeholder="Enter last name"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Gender -->
+                    <label>Gender:</label><br>
+                    <select>
+                        <option>Select gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select><br><br>
+                </td>
+                <td>
+                    <!-- Date of Birth -->
+                    <label>Date of Birth:</label><br>
+                    <input type="date" id="dob" name="dob" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Email Address -->
+                    <label>Email Address:</label><br>
+                    <input type="tel" id="email" name="email" required><br><br>
+                </td>
+                <td>
+                    <!-- Phone Number -->
+                    <label>Phone Number:</label><br>
+                    <input type="tel" placeholder="08154387000"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Country -->
+                    <label>Country:</label><br>
+                    <select id="country" name="country" required>
+                        <option value="">Select Country</option>
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="uk">UK</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Ghana">Ghana</option>
+                    </select><br><br>
+                </td>
+                <td>
+                    <!-- State/City Residence -->
+                    <label>State/City Residence:</label><br>
+                    <input type="text" placeholder="Enter state of residence"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- How did you hear about us -->
+                    <label>How did you hear about us:</label><br>
+                    <select id="referral" name="referral" required>
+                        <option value="">Select an option</option>
+                        <option value="linkedlin">LinkedIn</option>
+                        <option value="friend">Friend</option>
+                        <option value="youtube">YouTube</option>
+                        <option value="Whatsapp">WhatsApp</option>
+                        <option value="Billboard">Billboard</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+                </td>
+                <td>
+                    <!-- Password -->
+                    <label>Password:</label><br>
+                    <input type="password" placeholder="Enter password"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Confirm Password -->
+                    <label>Confirm Password:</label><br>
+                    <input type="password" placeholder="Enter password again"><br><br>
+                </td>
+                
+            </tr>
+             
+        </table>
+        <!-- Submit Button -->
+        <input type="submit" value="Submit"><br><br>
+    </form>
+
+    <footer>
+        <p>Connect with me on <a href="https://github.com/dubby441">GitHub</a> 
+        <p>&copy; 2024 My Personal Page</p>
+    </footer>
+
+</body>
+</html>
